@@ -1,0 +1,116 @@
+.home {
+  .features {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+
+    .container {
+      width: 80%;
+      display: flex;
+      gap: 50px;
+
+      .item {
+        flex: 1;
+        position: relative;
+        border-radius: 5px;
+        overflow: hidden;
+        h1 {
+          font-size: 24px;
+        }
+
+        .title {
+          display: flex;
+          align-items: center;
+          justify-content: flex-start;
+          gap: 12px;
+          margin: 15px 0;
+          font-weight: 600;
+          color: #333;
+          img {
+            width: 20px;
+            height: 20px;
+          }
+        }
+        p {
+          color: #444;
+        }
+        video {
+          width: 90%;
+          height: 90%;
+        }
+      }
+    }
+  }
+  .explore {
+    display: flex;
+    justify-content: center;
+    margin: 120px 0;
+    height: max-content;
+    padding: 60px 0;
+    text-transform: capitalize;
+    &.dark {
+      background: #0d084d;
+      color: #fff;
+    }
+
+    .container {
+      width: 80%;
+      display: flex;
+      align-items: center;
+      gap: 50px;
+
+      .item {
+        flex: 1;
+        position: relative;
+        border-radius: 5px;
+        overflow: hidden;
+        width: fit-content;
+        height: fit-content;
+        color: #fff;
+        h1 {
+          color: #fff;
+          font-size: 24px;
+          margin: 20px 0;
+        }
+        p {
+          color: #fff;
+          margin-bottom: 15px;
+        }
+        img {
+          width: 100%;
+          height: 100%;
+        }
+
+        .title {
+          display: flex;
+          align-items: center;
+          justify-content: flex-start;
+          gap: 12px;
+          margin: 15px 0;
+          font-weight: 600;
+          color: #333;
+          img {
+            width: 20px;
+            height: 20px;
+          }
+          color: #fff;
+        }
+        button {
+          background: lightgreen;
+          padding: 10px;
+          border: none;
+          outline: none;
+          border-radius: 3px;
+          font-size: large;
+          font-weight: bold;
+          color: #fff;
+          cursor: pointer;
+        }
+      }
+      &.explore-item {
+        display: flex;
+        align-items: center;
+      }
+    }
+  }
+}

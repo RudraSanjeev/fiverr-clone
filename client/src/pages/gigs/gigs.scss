@@ -1,0 +1,102 @@
+.gigs {
+  display: flex;
+
+  .container {
+    display: flex;
+    width: 80%;
+    margin: 20px auto;
+    gap: 5px;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+    .breadcrumbs {
+      color: #555;
+      font-size: 12px;
+    }
+    h1 {
+      color: #333;
+      font-size: 24px;
+    }
+    p {
+      color: #555;
+    }
+
+    .menu {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .left {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        span {
+          color: #555;
+          font-weight: 300;
+        }
+        input {
+          border: 1px solid #ccc;
+          outline: none;
+          border-radius: 4px;
+          padding: 5px;
+          width: 140px;
+          &::placeholder {
+            color: #777;
+          }
+        }
+        button {
+          background: yellowgreen;
+          color: #fff;
+          border: none;
+          outline: none;
+          border-radius: 5px;
+          padding: 5px;
+          text-transform: capitalize;
+          font-weight: bold;
+          cursor: pointer;
+        }
+      }
+      .right {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+
+        .sortBy {
+          color: #555;
+          font-weight: 300;
+          margin-right: 10px;
+        }
+        .sortType {
+          color: #333;
+          font-weight: bold;
+          font-size: small;
+        }
+        img {
+          width: 20px;
+          height: 20px;
+          cursor: pointer;
+        }
+        .rightMenu {
+          display: flex;
+          flex-direction: column;
+          border: 1px solid #ccc;
+          border-radius: 10px;
+          padding: 10px 5px;
+          z-index: 999;
+          position: absolute;
+          top: 30px;
+          right: 10px;
+          color: #444;
+          background: #fff;
+        }
+      }
+    }
+    .cards {
+      display: flex;
+      gap: 10px;
+      border-radius: 5px;
+      overflow: hidden;
+      flex-wrap: wrap;
+    }
+  }
+}

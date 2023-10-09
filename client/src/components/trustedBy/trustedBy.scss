@@ -1,0 +1,25 @@
+.trustedBy {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f3f1f1;
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    // background: #fafafa;
+
+    span {
+      color: gray;
+      font-weight: bold;
+    }
+
+    img {
+      width: 70px;
+      object-fit: contain;
+    }
+  }
+}
