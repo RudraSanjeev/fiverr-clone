@@ -94,3 +94,5 @@ if currentUser have then we don't show login , and if currentUser is seller then
 **Q4.** slider
 
 - here we use infinite slider which you can find on npm but this is not compatible with react v18 please other options
+
+#### new branch created named as "home"
